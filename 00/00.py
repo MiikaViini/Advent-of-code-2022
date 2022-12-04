@@ -1,4 +1,4 @@
-file = open("input")
+file = open("input.txt")
 top_cals = 0
 sec_cals = 0
 third_cals = 0
