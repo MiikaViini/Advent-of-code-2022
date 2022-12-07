@@ -27,5 +27,5 @@ while str:
 		sum += 2
 	elif me == 90:
 		sum += 3
-
+file.close()
 print(sum)
