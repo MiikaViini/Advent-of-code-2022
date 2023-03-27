@@ -3,7 +3,9 @@
 total = 0
 
 def	has_same_section(p1_num1, p1_num2, p2_num1, p2_num2):
-	if p1_num1 <= p2_num1 and p2_num2 <= p1_num2 or p1_num1 >= p2_num1 and p2_num2 >= p1_num2:
+	if p1_num1 <= p2_num1 and p2_num2 <= p1_num2:
+		return True
+	elif p1_num1 >= p2_num1 and p2_num2 >= p1_num2:
 		return True
 	else:
 		return False
